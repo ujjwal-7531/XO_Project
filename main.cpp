@@ -66,7 +66,7 @@ int main(){
     while(c<9){
 
         //asking input position from p1
-        if(end!=true&&c<9){
+        if(c<9){
             cout<<p1<<" turn: ";
             cin>>position1;
             c+=1;
@@ -107,7 +107,7 @@ int main(){
         }
 
         //asking input position from p2
-        if(end!=true&&c<9){
+        if(c<9){
             cout<<p2<<" turn: ";
             cin>>position2;
             c+=1;
