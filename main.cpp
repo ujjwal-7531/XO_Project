@@ -66,13 +66,11 @@ int main(){
     while(c<9){
 
         //asking input position from p1
-        if(c<9){
-            cout<<p1<<" turn: ";
+        if(end!=true&&c<9){
+            cout<<"\n"<<p1<<" turn: ";
             cin>>position1;
             c+=1;
-        }
-        
-        //grid filling criteria after input from Player1
+            //grid filling criteria after input from Player1
         if(position1==1)
         grid[0][0]=opt1;
         else if(position1==2)
@@ -105,15 +103,16 @@ int main(){
             cout<<"\n"<<p1<<" won...";
             end=true;break;
         }
+        }
+        
+        
 
         //asking input position from p2
-        if(c<9){
-            cout<<p2<<" turn: ";
+        if(end!=true&&c<9){
+            cout<<"\n"<<p2<<" turn: ";
             cin>>position2;
             c+=1;
-        }
-
-        //grid filling criteria after taking input from Player2
+            //grid filling criteria after taking input from Player2
         if(position2==1)
         grid[0][0]=opt2;
         else if(position2==2)
@@ -147,6 +146,9 @@ int main(){
             end=true;
         break;
         }
+        }
+
+        
         
         
     }
