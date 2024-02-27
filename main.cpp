@@ -1,6 +1,6 @@
 /*--------------Title: Tic-Tac-Toe game----------------
 ----------------Date: 24/02/2024-----------------------
-----------------Authour: Ujjwal------------------------*/
+----------------Author: Ujjwal------------------------*/
 //XO GAME
 #include<iostream>
 #include<algorithm>
