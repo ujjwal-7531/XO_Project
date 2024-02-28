@@ -24,7 +24,7 @@ int main(){
     cin>>p1;
     cout<<"Player2 enter your name: ";
     cin>>p2;
-    cout<<"\nPlayer1 is choosing...\nFor \"x\"(press 1)/\"Y\"(press 2): ";
+    cout<<"\n"<<p1<<" is choosing...\nFor \"X\"(press 1)/\"O\"(press 2): ";
     while(true){
         cin>>key;
         if(key==1){
